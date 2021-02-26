@@ -1,0 +1,33 @@
+* yarn add express
+* yarn add typescript -D
+* yarn tsc --init
+* yarn add ts-node-dev -D
+* yarn add uuidv4
+* yarn add date-fns
+* yarn typeorm
+* yarn add reflect-metadata
+* yarn add bcryptjs
+* yarn add jsonwebtoken
+
+yarn dev:server
+ 
+*** TyOrm *** 
+yarn typeorm migration:create -n CreateAppointments
+yarn typeorm migration:run
+yarn typeorm migration:revert
+
+KISS - Keep It Simple & Stupid - mantenha simples e estupido
+
+
+
+
+413bde38-f57e-4db6-919f-c9a3fc9afa8c
+
+
+*** Sequelize ***
+yarn sequelize db:create
+yarn sequelize migration:create --name=create-users
+yarn sequelize db:migrate
+
+
+Rotas autenticadas - 15:03 minutos

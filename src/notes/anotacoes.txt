@@ -9,6 +9,7 @@
 * yarn add bcryptjs
 * yarn add jsonwebtoken
 * yarn add multer
+* yarn add express-async-errors
 
 yarn dev:server
  

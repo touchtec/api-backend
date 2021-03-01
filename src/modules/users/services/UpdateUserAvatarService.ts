@@ -4,7 +4,7 @@ import fs from 'fs';
 
 import uploadConfig from '../../../config/upload';
 import AppError from '../../../shared/errors/AppError';
-import User from '../entities/Users';
+import User from '../infra/typeorm/entities/Users';
 
 interface RequestDTO {
     user_id: string;

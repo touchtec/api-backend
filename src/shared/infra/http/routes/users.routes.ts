@@ -4,7 +4,7 @@ import uploadConfig from '../../config/upload';
 
 import CreateUserService from '../services/CreateUserService';
 import UpdateUserAvatarService from '../../modules/users/services/UpdateUserAvatarService';
-import ensureAuthenticated from '../middlewares/ensureAuthenticated';
+import ensureAuthenticated from '../infra/database/middlewares/ensureAuthenticated';
 
 const usersRouter = Router();
 

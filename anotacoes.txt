@@ -26,7 +26,7 @@ yarn sequelize db:migrate
 
 KISS - Keep It Simple & Stupid - mantenha simples e estupido
 
-DDD: Domini Driven Design (metodologia)
+DDD: Dominio Driven Design (metodologia)
 TDD: Test Driven Development (metodologia)
 
 ** Cofiguração settings.json pasta material

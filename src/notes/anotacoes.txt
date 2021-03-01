@@ -8,6 +8,7 @@
 * yarn add reflect-metadata
 * yarn add bcryptjs
 * yarn add jsonwebtoken
+* yarn add multer
 
 yarn dev:server
  
@@ -28,6 +29,3 @@ KISS - Keep It Simple & Stupid - mantenha simples e estupido
 yarn sequelize db:create
 yarn sequelize migration:create --name=create-users
 yarn sequelize db:migrate
-
-
-Rotas autenticadas - 15:03 minutos

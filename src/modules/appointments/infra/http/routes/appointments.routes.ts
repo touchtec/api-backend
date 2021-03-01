@@ -30,7 +30,7 @@ appointmentsRouter.post('/', async (request, response) => {
 
     return response.json(appointment);
 
-    return response.status(400).json({ error: err.message })
+    //return response.status(400).json({ error: err.message })
     
 });
 

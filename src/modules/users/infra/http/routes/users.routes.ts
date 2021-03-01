@@ -26,7 +26,7 @@ usersRouter.post('/', async (request, response) => {
 
     return response.json(user);
 
-    return response.status(400).json({ error: err.message })
+    //return response.status(400).json({ error: err.message })
     
 });
 
@@ -44,7 +44,7 @@ usersRouter.patch('/avatar', ensureAuthenticated, upload.single('avatar'), async
     return response.json(user);
 
 
-    return response.status(400).json({ error: err.message })
+    //return response.status(400).json({ error: err.message })
     
   },
 );

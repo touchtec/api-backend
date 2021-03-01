@@ -18,15 +18,32 @@ yarn typeorm migration:create -n CreateAppointments
 yarn typeorm migration:run
 yarn typeorm migration:revert
 
-KISS - Keep It Simple & Stupid - mantenha simples e estupido
-
-
-
-
-413bde38-f57e-4db6-919f-c9a3fc9afa8c
-
 
 *** Sequelize ***
 yarn sequelize db:create
 yarn sequelize migration:create --name=create-users
 yarn sequelize db:migrate
+
+KISS - Keep It Simple & Stupid - mantenha simples e estupido
+
+DDD: Domini Driven Design (metodologia)
+TDD: Test Driven Development (metodologia)
+
+** Cofiguração settings.json pasta material
+ "material-icon-theme.folders.associations": {
+        "infra": "app",
+        "entities": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations": "core",
+        "dtos": "typescript",
+        "fakes": "mock",
+    },
+    "material-icon-theme.files.associations": {
+        "ormconfig.json": "database",
+        "tsconfig.json": "tune",
+    }

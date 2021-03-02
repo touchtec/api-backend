@@ -30,6 +30,7 @@ KISS - Keep It Simple & Stupid - mantenha simples e estupido
 DDD: Dominio Driven Design (metodologia)
 TDD: Test Driven Development (metodologia)
 SOLID: L= Liskov substitution principle
+       D= Dependency Inversion Principle
 
 ** Cofiguração settings.json pasta material
  "material-icon-theme.folders.associations": {

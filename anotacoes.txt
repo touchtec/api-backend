@@ -52,8 +52,10 @@ SOLID: L= Liskov substitution principle
     }
 
 
-    Reescrevendo Repositórios 6:03
+    **Testes automatizados**
+    1. Testes unitarios
+    2. Testes de integração
+    3. Testes E2E
 
 
-
-    Vt9F@3sjnJVPxR5
+py96cxdkpg2

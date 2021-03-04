@@ -11,6 +11,7 @@
 * yarn add multer
 * yarn add express-async-errors
 * yarn add tsconfig-paths -D
+* yarn add jest -D - após executar yarn jest --init - yarn add ts-jest -D - yarn add @types/jest - D
 
 yarn dev:server
  

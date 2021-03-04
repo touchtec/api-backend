@@ -12,7 +12,6 @@ interface RequestDTO {
 class CreateAppointmentService {
     constructor(private appointmentsRepository: IAppointmentsRepository){}
 
-
     public async execute({ date, provider_id }: RequestDTO): Promise<Appointment> {
 
         const appointmentDate =  startOfHour(date);

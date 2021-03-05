@@ -62,3 +62,11 @@ SOLID: L= Liskov substitution principle
 py96cxdkpg2
 
 https://www.youtube.com/watch?v=mxIhSTP6ddE
+
+
+
+RF = requisitos funcionais
+
+RNF = requisitos não funcionais
+
+RN = regra de negocio
